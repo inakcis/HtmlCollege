@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<style type="text/css">
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+p{
+  font-family: Arial,"Times New Roman";
+  font-size: 12px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+.firstLetter {
+  font-size: 3em;
+  float: left;
+}
+
+h1{
+	background: #678;
+	color: white;
+	text-align: center;	
+}
+
+.p1{
+	float: left;
+	width: 200px;	
+	background: #ff0000;
+	border: 1px #234 solid;
+}
+
+.p2{
+	margin-left: 210px;	
+}
+
+#outer1{
+	height: 100px;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+#outer1[id]{
+	display: table;
+	position: static;
+}
+
+#middle1{
+	position: absolute;
+	top: 50%;
+}
+
+#middle1[id]{
+	display: table-cell;
+	vertical-align: middle;
+	position: static;
+
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#inner1{
+	position: relative;
+	top: -50%;
+}
+
+#outer2{
+	height: 100px;
+	width: 100%;	
+	display: table;
+}
+
+#middle2{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#outer{
+	height: 100px;
+	width: 100%;	
+}
+
+#middle{
+	height: 50px;
+	position: absolute;
+	top:50%;
+	transform:translateY(-50%);
+}
+
+
+
+</style>
+</head>
+<body>  
+  <h1 id="outer">
+  	<div id="middle">
+  		<div id="inner">Head line,any text any height any content,everything is vertical centered
+  		</div>
+  	</div>
+  </h1>
+  <p class="p1">Gawker’s Gabrielle Bluestone has uncovered that there are precisely three ZIP codes across the country that have no record of Ashley Madison users. That’s ZIP codes, not area codes. And what do they have in common? They're partially lacking two things: the internet and a large number of people.</p>
+  <p class="p2"><span class="firstLetter">T</span>he school board invites the Dean to become a member as long as he promotes his “homosexuality.” Chang auditions for “The Karate Kid,” with Annie’s help, and endures abusive treatment from the director. Abed tries to save baby birds nesting on the Greendale internet router with the help of Elroy.</p>
+</body>
+</html>
